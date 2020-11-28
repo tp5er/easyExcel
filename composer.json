@@ -1,0 +1,25 @@
+{
+    "name": "tp5er/easyexcel",
+    "description": "excel import and export",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "tp5er",
+            "email": "tp5er@qq.com"
+        }
+    ],
+
+    "support": {
+        "issues": "https://github.com/tp5er/easyexcel"
+    },
+    "require": {
+        "php": ">=5.2.0",
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "tp5er\\": "src/"
+        }
+    }
+}
